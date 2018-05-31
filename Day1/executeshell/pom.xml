@@ -1,0 +1,46 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.tektutor</groupId>
+	<artifactId>tektutor-hello-app</artifactId>
+	<version>1.0.0</version>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<executions>
+					<execution>
+						<id>default-compile</id>
+						<phase>none</phase>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.6.0</version>
+				<executions>
+					<execution>
+						<id>custom-execution</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+					
+						<configuration>
+							<executable>ls</executable>
+							<arguments>
+								<argument>-l</argument>
+								<argument>-R</argument>
+								<argument>/home/train</argument>
+							</arguments>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

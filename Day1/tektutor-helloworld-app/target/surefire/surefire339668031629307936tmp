@@ -1,0 +1,24 @@
+#surefire
+#Wed May 30 17:54:51 IST 2018
+testClassesDirectory=/home/train/Training/tektutor-helloworld-app/target/test-classes
+classPathUrl.2=/home/train/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=/home/train/Training/tektutor-helloworld-app/target/classes
+reportsDirectory=/home/train/Training/tektutor-helloworld-app/target/surefire-reports
+classPathUrl.0=/home/train/Training/tektutor-helloworld-app/target/test-classes
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=/home/train/Training/tektutor-helloworld-app/src/test/java
+surefireClassPathUrl.1=/home/train/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar
+surefireClassPathUrl.0=/home/train/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.12.4/surefire-junit3-2.12.4.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+tc.0=org.tektutor.AppTest
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+runStatisticsFile=/home/train/Training/tektutor-helloworld-app/.surefire-D37385116E267B7DEAD994A0B8B51C072CF8CFA7
+includes0=**/Test*.java
+childDelegation=false
